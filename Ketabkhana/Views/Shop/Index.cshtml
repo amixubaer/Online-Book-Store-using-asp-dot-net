@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Ketabkhana.Models.VM.BookModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Books List</h2>
+
+<table id="table">
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Publisher</th>
+        <th>Edition</th>
+        <th>Price (Tk.)</th>
+        <th> Quantity</th>
+        <th>Shop ID</th>
+        <th>Thumbnail</th>
+    </tr>
+
+    @foreach (var b in Model)
+    {
+        <tr>
+            <td>@b.id</td>
+            <td>@b.bookTitle</td>
+            <td>@b.author</td>
+            <td>@b.publisher</td>
+            <td>@b.edition</td>
+            <td>@b.price</td>
+            <td>@b.quantity</td>
+            <td>@b.shopId</td>
+            <td> <img src="~/images/@b.thumbnail" alt="" height=180 width=150></td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Ketabkhana.Models.EF.Order>
+@{
+    ViewBag.Title = "AllOrders";
+}
+
+<h2>All Orders</h2>
+
+<table  id="table">
+    <tr>
+        <th>ID</th>
+        <th>Shop Username</th>
+        <th>Customer Username</th>
+        <th>Amount</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var ao in Model)
+    {
+        <tr>
+            <td>@ao.id</td>
+            <td>@ao.amount</td>
+            <td>@ao.status</td>
+            <td>@ao.customerId</td>
+            <td><a href="/Admin/OrdersDetails/@ao.id" class="btn btn-success">Details</a></td>
+        </tr>
+    }
+</table>

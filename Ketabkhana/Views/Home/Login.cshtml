@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<div class="login-form">
+
+    <h1 style="font-size: 40px;">Login</h1>
+    <br>
+
+    <form name="jsForm" action="/Home/Login" method="POST">
+
+        <i class="fa fa-user icon"></i>
+        <input type="text" name="username" id="username" placeholder="Username">
+        <br />
+
+        <br />
+
+        <i class="fa fa-unlock-alt icon"></i>
+        <input type="password" name="password" id="password" placeholder="Password">
+        <br />
+        <br />
+
+        <input type="submit" value="Login" id="submit">
+        <br />
+        <br />
+
+        <a href="/Registration/Index" title="" class="anchor">Not yet registered?</a>
+
+    </form>
+
+    @section head{
+    <style type="text/css">
+        body {
+            background-image: url('/images/login-bg.jpg');
+            margin: 0;
+        }
+    </style>
+}
+
+</div>

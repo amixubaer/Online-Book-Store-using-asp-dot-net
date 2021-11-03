@@ -1,0 +1,29 @@
+﻿@model Ketabkhana.Models.EF.Shop
+@{
+    ViewBag.Title = "Shop";
+}
+
+<h2>Shop Registration</h2>
+
+<form action="/Registration/Shop" method="post">
+
+    Shop Name: <input type="text" class="form-control" name="shopName" />
+    @Html.ValidationMessageFor(m => m.shopName, "", new { @class = "text-danger" })<br>
+
+    Shop Address: <input type="text" class="form-control" name="shopAddress" />
+    @Html.ValidationMessageFor(m => m.shopAddress, "", new { @class = "text-danger" })<br>
+
+    Email: <input type="email" class="form-control" name="email" />
+    @Html.ValidationMessageFor(m => m.email, "", new { @class = "text-danger" })<br>
+
+    Username: <input type="text" class="form-control" name="username" />
+    @Html.ValidationMessageFor(m => m.username, "", new { @class = "text-danger" })<br>
+
+    Password: <input type="password" class="form-control" name="password" />
+    @Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })<br>
+
+    Re-Type Password: <input type="password" class="form-control" name="rpassword" /><br>
+
+    <input type="submit" value="Submit" class="btn btn-success">
+
+</form>

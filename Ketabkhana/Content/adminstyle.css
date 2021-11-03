@@ -1,0 +1,128 @@
+h2{
+    text-align:center;
+    font-weight:bold;
+}
+
+
+/*table start*/
+
+#table {
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+    color: #34495e;
+    border-radius: 0px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0px 0px 30px black;
+    margin-top: 3vh;
+}
+
+#table td, #table th {
+    padding: 10px;
+}
+
+#table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#table tr:nth-child(odd) {
+    background-color: #cdcfd0;
+}
+
+#table tr:hover {
+    background-color: #ddd;
+}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #2e4154;
+    color: white;
+}
+
+#table tr td a {
+    color: #34495e;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: color;
+}
+
+#table tr td a:hover {
+    color: red;
+}
+/*table end*/
+
+
+/*login start*/
+
+.login-form {
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgba(0,0,0,.7);
+    color: #34495e;
+    margin-left: 32%;
+    margin-top: 200px;
+    margin-bottom: 250px;
+    color: dodgerblue;
+}
+
+.login-form i{
+    display: block;
+    float: left;
+}
+
+.login-form  label {
+    display:block;
+  font-weight: bold;
+}
+
+.login-form  input {
+    display: block;
+    float: right;
+    width: 88%;
+    border: 1px solid #000;
+    padding:5px;
+    box-sizing: border-box;
+    height: 35px;
+}
+
+.login-form #submit{
+    width: 100%;
+    padding: 5px 80px;
+    background-color: #eb7d4b;
+    color: #FFF;
+    text-transform: uppercase; 
+    font-weight: 900;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.login-form a{
+    color: white !important;
+}
+
+.login-form .icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+}
+.login-wrapper h1{
+  text-align: center;
+  color: dodgerblue;
+}
+
+
+
+
+
+/*login end*/

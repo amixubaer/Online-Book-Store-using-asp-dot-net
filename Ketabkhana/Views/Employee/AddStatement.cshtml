@@ -1,0 +1,23 @@
+﻿@model Ketabkhana.Models.EF.Statement
+
+@{
+    ViewBag.Title = "AddStatement";
+}
+
+<h2>Add Statement</h2>
+
+
+<form action="/Employee/AddStatement" method="post">
+
+    Date: <input type="date" name="date" class="form-control">
+    @Html.ValidationMessageFor(m => m.date, "", new { @class = "text-danger" })<br>
+
+    Expenditure: <input type="text" name="expenditure" class="form-control">
+    @Html.ValidationMessageFor(m => m.expenditure, "", new { @class = "text-danger" })<br>
+
+    Amount: <input type="number" name="amount" class="form-control">
+    @Html.ValidationMessageFor(m => m.amount, "", new { @class = "text-danger" })<br>
+
+    <input type="submit" value="Send" class="btn btn-primary">
+</form>
+

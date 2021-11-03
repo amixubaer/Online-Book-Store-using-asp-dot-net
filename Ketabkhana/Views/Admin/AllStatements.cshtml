@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Ketabkhana.Models.EF.Statement>
+@{
+    ViewBag.Title = "AllStatements";
+}
+
+<h2>All Statements</h2>
+
+<table id="table">
+    <tr>
+        <th>Date</th>
+        <th>Expenditure</th>
+        <th>Amount</th>
+    </tr>
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.date</td>
+            <td>@s.expenditure</td>
+            <td>@s.amount</td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,24 @@
+﻿@model Ketabkhana.Models.VM.ShopModel
+@{
+    ViewBag.Title = "DeleteShop";
+}
+
+<h2>Delete Shop</h2>
+
+<form action="/Admin/DeleteShop" method="post">
+
+    ID: <input type="number" class="form-control" value=@Model.id name="id" /><br>
+
+    Shop Name: <input type="text" class="form-control" value=@Model.shopName name="shopname" /><br>
+
+    Shop Address: <input type="text" class="form-control" value=@Model.shopAddress name="shopaddress" /><br>
+
+    Username: <input type="text" class="form-control" value=@Model.username name="username" /><br>
+
+    Email: <input type="email" class="form-control" value=@Model.email name="email" /><br>
+
+    Password: <input type="password" class="form-control" value=@Model.password name="password" /><br>
+
+    <input type="submit" value="Delete" class="btn btn-danger">
+
+</form>

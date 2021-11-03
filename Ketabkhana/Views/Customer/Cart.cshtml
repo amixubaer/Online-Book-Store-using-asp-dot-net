@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Ketabkhana.Models.VM.BookModel>
+
+@{
+    ViewBag.Title = "Cart";
+}
+
+<h2>Cart</h2>
+
+<a href="/Customer/ClearCart" class="btn btn-danger">Clear Cart</a>
+<a href="/Customer/Index" class="btn btn-warning">Add More</a>
+<br/>
+
+<table id="table">
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Publisher</th>
+        <th>Edition</th>
+        <th>Price</th>
+        <th>Shop ID</th>
+        <th>Quantity</th>
+        <th>Thumbnail</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var b in Model)
+    {
+        <tr>
+            <td>@b.id</td>
+            <td>@b.bookTitle</td>
+            <td>@b.author</td>
+            <td>@b.publisher</td>
+            <td>@b.edition</td>
+            <td>@b.price</td>
+            <td>@b.shopId</td>
+            <td>@b.quantity</td>
+            <td> <img src="~/images/@b.thumbnail" alt="" height=180 width=150> </td>
+            <td>
+
+                <a href="/Customer/PlusCart/@b.id" class="btn btn-success">+1</a>
+                <a href="/Customer/MinusCart/@b.id" class="btn btn-warning">-1</a>
+                <a href="/Customer/DeleteFromCart/@b.id" class="btn btn-danger">Remove</a>
+
+            </td>
+        </tr>
+    }
+</table>
+<br/>  
+<td><a href="/Customer/Checkout" class="btn btn-warning">Checkout</a></td>

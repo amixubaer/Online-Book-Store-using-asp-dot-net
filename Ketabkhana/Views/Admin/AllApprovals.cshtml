@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Ketabkhana.Models.EF.Approval>
+@{
+    ViewBag.Title = "AllApprovals";
+}
+
+<h2>All Approvals</h2>
+
+<table  id="table">
+    <tr>
+        <th>ID</th>
+        <th>Employee Username</th>
+        <th>Salary</th>
+        <th>Bonus</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var a in Model)
+    {
+        <tr>
+            <td>@a.id</td>
+            <td>@a.employeeUsername</td>
+            <td>@a.salary</td>
+            <td>@a.bonus</td>
+            <td><a href="/Admin/ApproveApproval/@a.id" class="btn btn-success">Approve</a> <a href="/Admin/DeclineApproval/@a.id" class="btn btn-danger">Decline</a></td>
+        </tr>
+    }
+</table>

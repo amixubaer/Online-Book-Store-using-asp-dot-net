@@ -1,0 +1,21 @@
+﻿@model Ketabkhana.Models.EF.Transaction
+@{
+    ViewBag.Title = "AddTransaction";
+}
+
+<h2>Add Transaction</h2>
+
+<form action="/Employee/AddTransaction" method="post">
+
+    Shop Username: <input type="text" name="shopUsername" class="form-control">
+    @Html.ValidationMessageFor(m => m.shopUsername, "", new { @class = "text-danger" })<br>
+
+    Customer Username: <input type="text" name="customerUsername" class="form-control">
+    @Html.ValidationMessageFor(m => m.customerUsername, "", new { @class = "text-danger" })<br>
+
+    Amount: <input type="number" name="amount" class="form-control">
+    @Html.ValidationMessageFor(m => m.amount, "", new { @class = "text-danger" })<br>
+
+    <input type="submit" value="Send" class="btn btn-primary">
+</form>
+

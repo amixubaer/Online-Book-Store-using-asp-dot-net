@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Ketabkhana.Models.EF.Support>
+@{
+    ViewBag.Title = "AllSupports";
+}
+
+<h2>Supports</h2>
+
+<table  id="table">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Message</th>
+    </tr>
+    @foreach (var s in Model)
+    {
+<tr>
+
+    <td>@s.id</td>
+    <td>@s.name</td>
+    <td>@s.phone</td>
+    <td>@s.email</td>
+    <td>@s.message</td>
+
+</tr>
+    }
+</table>

@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("head", required: false)
+
+    <link rel="stylesheet" href="~/Content/adminstyle.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,500,600" rel="stylesheet" type="text/css">
+</head>
+<body>
+    @if (Session["role"] == null)
+    {
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/home/Index">Ketabkhana</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/Registration/Index"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="/Home/Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    }
+
+    @if (Session["role"] == "Customer")
+    {
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/Customer/Index">Ketabkhana</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Cart", "Cart", "Customer")</li>
+                        <li>@Html.ActionLink("Orders", "MyOrders", "Customer")</li>
+                        <li>@Html.ActionLink("Transaction History", "CustomerTransactions", "Customer")</li>
+                        <li>@Html.ActionLink("Complete Payment", "Payment", "Customer")</li>
+                        <li>@Html.ActionLink("Support", "AddSupport", "Customer")</li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/Customer/MyProfile"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                        <li><a href="/Home/Logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    }
+
+    @if (Session["role"] == "Shop")
+    {
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/Shop/Index">Ketabkhana</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("My Books", "MyBooks", "Shop")</li>
+                        <li>@Html.ActionLink("Orders", "MyOrders", "Shop")</li>
+                        <li>@Html.ActionLink("Transaction History", "ShopTransactions", "Shop")</li>
+                        <li>@Html.ActionLink("Support", "AddSupport", "Shop")</li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/Shop/MyProfile"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                        <li><a href="/Home/Logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    }
+
+    @if (Session["role"] == "Employee")
+    {
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/Employee/AllOrders">Ketabkhana</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Salaries", "AllSalaries", "Employee")</li>
+                        <li>@Html.ActionLink("Income Statement", "AllStatements", "Employee")</li>
+                        <li>@Html.ActionLink("Transaction History", "AllTransactions", "Employee")</li>
+                        <li>@Html.ActionLink("Support", "AddSupport", "Employee")</li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/Employee/MyProfile"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                        <li><a href="/Home/Logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    }
+
+
+    @if (Session["role"] == "Admin")
+    {
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/Admin/Index">Ketabkhana</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Admins", "AllAdmins", "Admin")</li>
+                    <li>@Html.ActionLink("Employees", "AllEmployees", "Admin")</li>
+                    <li>@Html.ActionLink("Shops", "AllShops", "Admin")</li>
+                    <li>@Html.ActionLink("Customers", "AllCustomers", "Admin")</li>
+
+                    <li>@Html.ActionLink("Salary", "AllSalaries", "Admin")</li>
+
+                    <li>@Html.ActionLink("Orders", "AllOrders", "Admin")</li>
+                    <li>@Html.ActionLink("Transaction History", "AllTransactions", "Admin")</li>
+
+                    <li>@Html.ActionLink("Income Statement", "AllStatements", "Admin")</li>
+
+                    <li>@Html.ActionLink("Support", "AllSupports", "Admin")</li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/Admin/MyProfile"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                    <li><a href="/Home/Logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+    }
+
+    <div class="container body-content">
+
+        @RenderBody()
+        <hr />
+
+
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Ketabkhana</p>
+        </footer>
+
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

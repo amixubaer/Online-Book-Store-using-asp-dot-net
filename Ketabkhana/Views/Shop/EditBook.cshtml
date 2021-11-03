@@ -1,0 +1,36 @@
+﻿@model Ketabkhana.Models.EF.Book
+@{
+    ViewBag.Title = "EditBook";
+}
+
+<h2>Update Book</h2>
+
+<form action="/Shop/EditBook" method="post">
+
+    Book Id: <input type="text" class="form-control" value=@Model.id name="id" readonly />
+
+    Book Title: <input type="text" class="form-control" value=@Model.bookTitle name="bookTitle" />
+    @Html.ValidationMessageFor(m => m.bookTitle, "", new { @class = "text-danger" })<br>
+
+    Book Author: <input type="text" class="form-control" value=@Model.author name="author" />
+    @Html.ValidationMessageFor(m => m.author, "", new { @class = "text-danger" })<br>
+
+    Book Publisher: <input type="text" class="form-control" value=@Model.publisher name="publisher" />
+    @Html.ValidationMessageFor(m => m.publisher, "", new { @class = "text-danger" })<br>
+
+    Book Edition: <input type="text" class="form-control" value=@Model.edition name="edition" />
+    @Html.ValidationMessageFor(m => m.edition, "", new { @class = "text-danger" })<br>
+
+    Book Price: <input type="number" class="form-control" value=@Model.price name="price" />
+    @Html.ValidationMessageFor(m => m.price, "", new { @class = "text-danger" })<br>
+
+    Book Quantity: <input type="number" class="form-control" value=@Model.quantity name="quantity" />
+    @Html.ValidationMessageFor(m => m.quantity, "", new { @class = "text-danger" })<br>
+
+    Book Thumbnail: <input type="text" class="form-control" value=@Model.thumbnail name="thumbnail" /><br>
+
+    Shop ID: <input type="number" class="form-control" value=@Model.shopId name="shopId" readonly /><br>
+
+    <input type="submit" value="Edit" class="btn btn-success">
+
+</form>

@@ -1,0 +1,20 @@
+﻿@model Ketabkhana.Models.EF.Salary
+@{
+    ViewBag.Title = "AddApproval";
+}
+
+<h2>Send Salary for Approval</h2>
+
+<form action="/Employee/AddApproval" method="post">
+
+    Employee Username: <input type="text" name="employeeUsername" class="form-control">
+    @Html.ValidationMessageFor(m => m.employeeUsername, "", new { @class = "text-danger" })<br>
+
+    Salary: <input type="number" name="salary" class="form-control">
+    @Html.ValidationMessageFor(m => m.salary1, "", new { @class = "text-danger" })<br>
+
+    Bonus: <input type="number" name="bonus" class="form-control">
+    @Html.ValidationMessageFor(m => m.bonus, "", new { @class = "text-danger" })<br>
+
+    <input type="submit" value="Send" class="btn btn-primary">
+</form>

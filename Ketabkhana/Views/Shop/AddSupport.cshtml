@@ -1,0 +1,25 @@
+﻿@model Ketabkhana.Models.EF.Support
+@{
+    ViewBag.Title = "AddSupport";
+}
+
+<h2><b>Support</b></h2>
+
+
+<form action="/Shop/AddSupport" method="post">
+
+    Name: <input type="text" class="form-control" name="name" />
+    @Html.ValidationMessageFor(m => m.name, "", new { @class = "text-danger" })<br>
+
+    Phone: <input type="number" class="form-control" name="phone" />
+    @Html.ValidationMessageFor(m => m.phone, "", new { @class = "text-danger" })<br>
+
+    Email: <input type="text" class="form-control" name="email" />
+    @Html.ValidationMessageFor(m => m.email, "", new { @class = "text-danger" })<br>
+
+    Message:<br /> <textarea cols="40" id="message" name="message" rows="4"> </textarea> 
+    @Html.ValidationMessageFor(m => m.message, "", new { @class = "text-danger" })<br>
+
+    <input type="submit" value="Submit" class="btn btn-primary">
+
+</form>

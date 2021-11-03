@@ -1,0 +1,35 @@
+﻿@model Ketabkhana.Models.EF.Book
+@{
+    ViewBag.Title = "AddBook";
+}
+
+
+<h2>Add Book</h2>
+
+<form action="/Shop/AddBook" method="post" enctype="multipart/form-data">
+
+
+    Book Title: <input type="text" class="form-control" name="bookTitle" />
+    @Html.ValidationMessageFor(m => m.bookTitle, "", new { @class = "text-danger" })<br>
+
+    Book Author: <input type="text" class="form-control" name="author" />
+    @Html.ValidationMessageFor(m => m.author, "", new { @class = "text-danger" })<br>
+
+    Book Publisher: <input type="text" class="form-control" name="publisher" />
+    @Html.ValidationMessageFor(m => m.publisher, "", new { @class = "text-danger" })<br>
+
+    Book Edition: <input type="text" class="form-control" name="edition" />
+    @Html.ValidationMessageFor(m => m.edition, "", new { @class = "text-danger" })<br>
+
+    Book Price: <input type="number" class="form-control" name="price" />
+    @Html.ValidationMessageFor(m => m.price, "", new { @class = "text-danger" })<br>
+
+    Book Quantity: <input type="number" class="form-control" name="quantity" />
+    @Html.ValidationMessageFor(m => m.quantity, "", new { @class = "text-danger" })<br>
+
+    Book Thumbnail: <input type="file" class="form-control" name="file" /><br>
+
+
+    <input type="submit" value="Add" class="btn btn-success">
+
+</form>

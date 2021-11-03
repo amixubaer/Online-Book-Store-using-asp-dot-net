@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Ketabkhana.Models.VM.OrderDetailModel>
+@{
+    ViewBag.Title = "MyOrders";
+}
+
+<h2>My Orders</h2>
+
+<table id="table">
+    <tr>
+        <th>ID</th>
+        <th>Book ID</th>
+        <th>Order ID</th>
+        <th>Shop ID</th>
+        <th>Unit Price</th>
+        <th>Quantity</th>
+    </tr>
+
+    @foreach (var b in Model)
+    {
+        <tr>
+            <td>@b.id</td>
+            <td>@b.bookId</td>
+            <td>@b.orderId</td>
+            <td>@b.shopId</td>
+            <td>@b.unitPrice</td>
+            <td>@b.quantity</td>
+
+        </tr>
+    }
+
+</table>

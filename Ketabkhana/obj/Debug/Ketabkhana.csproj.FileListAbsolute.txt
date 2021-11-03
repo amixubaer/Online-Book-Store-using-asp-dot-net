@@ -1,0 +1,247 @@
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\Ketabkhana.dll.config
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\Ketabkhana.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\Ketabkhana.pdb
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\csc.exe
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\csc.exe.config
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\csc.rsp
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\csi.exe
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\csi.exe.config
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\csi.rsp
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.AppContext.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Console.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.IO.Compression.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Net.Http.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.ValueTuple.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\vbc.exe
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\vbc.exe.config
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\vbc.rsp
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\VBCSCompiler.exe
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\Antlr3.Runtime.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\EntityFramework.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\EntityFramework.SqlServer.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\Newtonsoft.Json.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\System.Web.Helpers.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\System.Web.Mvc.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\System.Web.Optimization.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\System.Web.Razor.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.Razor.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\WebGrease.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\EntityFramework.xml
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\EntityFramework.SqlServer.xml
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\System.Web.Helpers.xml
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\System.Web.Mvc.xml
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\System.Web.Optimization.xml
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\System.Web.Razor.xml
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.xml
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.Razor.xml
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\Newtonsoft.Json.xml
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\Antlr3.Runtime.pdb
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\obj\Debug\Ketabkhana.csproj.AssemblyReference.cache
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\obj\Debug\Ketabkhana.csproj.CoreCompileInputs.cache
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\obj\Debug\Ketabkhana.csproj.CopyComplete
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\obj\Debug\Ketabkhana.dll
+C:\Users\Arosh\Desktop\C#\Project\Ketabkhana\Ketabkhana\obj\Debug\Ketabkhana.pdb
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\Ketabkhana.dll.config
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\Ketabkhana.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\Ketabkhana.pdb
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\csc.exe
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\csc.exe.config
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\csc.rsp
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\csi.exe
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\csi.exe.config
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\csi.rsp
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.AppContext.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Console.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.IO.Compression.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Net.Http.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Net.Sockets.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.ValueTuple.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Xml.XPath.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\vbc.exe
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\vbc.exe.config
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\vbc.rsp
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\VBCSCompiler.exe
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\Antlr3.Runtime.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\EntityFramework.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\EntityFramework.SqlServer.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\Newtonsoft.Json.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\System.Web.Helpers.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\System.Web.Mvc.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\System.Web.Optimization.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\System.Web.Razor.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.Razor.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\WebGrease.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\EntityFramework.xml
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\EntityFramework.SqlServer.xml
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\System.Web.Helpers.xml
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\System.Web.Mvc.xml
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\System.Web.Optimization.xml
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\System.Web.Razor.xml
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.xml
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.Razor.xml
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\Newtonsoft.Json.xml
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\Antlr3.Runtime.pdb
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\obj\Debug\Ketabkhana.csproj.AssemblyReference.cache
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\obj\Debug\Ketabkhana.csproj.CoreCompileInputs.cache
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\obj\Debug\Ketabkhana.dll
+C:\Users\mufra\Downloads\Ketabkhana v8\Ketabkhana\Ketabkhana\obj\Debug\Ketabkhana.pdb
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\Ketabkhana.dll.config
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\Ketabkhana.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\Ketabkhana.pdb
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\csc.exe
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\csc.exe.config
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\csc.rsp
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\csi.exe
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\csi.exe.config
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\csi.rsp
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.AppContext.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Console.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.IO.Compression.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Net.Http.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Net.Sockets.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.ValueTuple.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Xml.XPath.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\vbc.exe
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\vbc.exe.config
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\vbc.rsp
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\VBCSCompiler.exe
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\Antlr3.Runtime.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\EntityFramework.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\EntityFramework.SqlServer.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\Newtonsoft.Json.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\System.Web.Helpers.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\System.Web.Mvc.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\System.Web.Optimization.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\System.Web.Razor.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.Razor.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\WebGrease.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\EntityFramework.xml
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\EntityFramework.SqlServer.xml
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\System.Web.Helpers.xml
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\System.Web.Mvc.xml
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\System.Web.Optimization.xml
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\System.Web.Razor.xml
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.xml
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\System.Web.WebPages.Razor.xml
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\Newtonsoft.Json.xml
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\Antlr3.Runtime.pdb
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\obj\Debug\Ketabkhana.csproj.AssemblyReference.cache
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\obj\Debug\Ketabkhana.csproj.CoreCompileInputs.cache
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\obj\Debug\Ketabkhana.dll
+C:\Users\mufra\Downloads\Ketabkhana v12\Ketabkhana\Ketabkhana\obj\Debug\Ketabkhana.pdb

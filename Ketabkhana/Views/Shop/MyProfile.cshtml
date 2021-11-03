@@ -1,0 +1,31 @@
+﻿@model Ketabkhana.Models.VM.ShopModel
+
+@{
+    ViewBag.Title = "MyProfile";
+}
+
+<h2>My Profile</h2>
+
+<form action="/Shop/MyProfile" method="post">
+
+    ID: <input type="number" class="form-control" value=@Model.id name="id" readonly/>
+
+    Shop Name: <input type="text" class="form-control" value=@Model.shopName name="shopName" />
+    @Html.ValidationMessageFor(m => m.shopName, "", new { @class = "text-danger" })<br>
+
+    Shop Address: <input type="text" class="form-control" value=@Model.shopAddress name="shopAddress" />
+    @Html.ValidationMessageFor(m => m.shopAddress, "", new { @class = "text-danger" })<br>
+
+    Email: <input type="email" class="form-control" value=@Model.email name="email" />
+    @Html.ValidationMessageFor(m => m.email, "", new { @class = "text-danger" })<br>
+
+    Username: <input type="text" class="form-control" value=@Model.username name="username" readonly /><br>
+
+    Password: <input type="password" class="form-control" value=@Model.password name="password" />
+    @Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })<br>
+
+    <input type="submit" name="Edit" value="Edit" class="btn btn-success">
+    <input type="submit" name="Delete" value="Delete" class="btn btn-danger ">
+
+</form>
+

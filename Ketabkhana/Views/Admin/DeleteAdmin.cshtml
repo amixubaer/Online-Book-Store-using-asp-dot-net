@@ -1,0 +1,29 @@
+﻿@model Ketabkhana.Models.EF.Admin
+@{
+    ViewBag.Title = "DeleteAdmin";
+}
+
+<h2>Delete Admin</h2>
+
+<form action="/Admin/DeleteAdmin" method="post">
+
+    ID: <input type="number" class="form-control" value=@Model.id name="id" />
+
+    First Name: <input type="text" class="form-control" value=@Model.firstName name="firstname" /><br>
+
+    Last Name: <input type="text" class="form-control" value=@Model.lastName name="lastname" /><br>
+
+    Gender:
+    <input type="text" class="form-control" value=@Model.gender name="gender" /><br>
+
+    Dob: <input type="text" class="form-control" value=@Model.dob name="dob" /><br>
+
+    Email: <input type="email" class="form-control" value=@Model.email name="email" /><br>
+
+    Username: <input type="text" class="form-control" value=@Model.username name="username" /><br>
+
+    Password: <input type="password" class="form-control" value=@Model.password name="password" /><br>
+
+    <input type="submit" value="Delete" class="btn btn-danger">
+
+</form>

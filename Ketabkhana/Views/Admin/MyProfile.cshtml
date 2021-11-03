@@ -1,0 +1,36 @@
+﻿@model Ketabkhana.Models.EF.Admin
+@{
+    ViewBag.Title = "MyProfile";
+}
+
+<h2>My Profile</h2>
+
+<form action="/Admin/MyProfile" method="post">
+
+    ID: <input type="number" class="form-control" value=@Model.id name="id" readonly />
+
+    First Name: <input type="text" class="form-control" value=@Model.firstName name="firstName" />
+    @Html.ValidationMessageFor(m => m.firstName, "", new { @class = "text-danger" })<br>
+
+    Last Name: <input type="text" class="form-control" value=@Model.lastName name="lastName" />
+    @Html.ValidationMessageFor(m => m.lastName, "", new { @class = "text-danger" })<br>
+
+    Gender:
+    <input type="text" class="form-control" value=@Model.gender name="gender" />
+    @Html.ValidationMessageFor(m => m.gender, "", new { @class = "text-danger" })<br>
+
+    Dob: <input type="date" class="form-control" value=@Model.dob name="dob" />
+    @Html.ValidationMessageFor(m => m.dob, "", new { @class = "text-danger" })<br>
+
+    Email: <input type="email" class="form-control" value=@Model.email name="email" />
+    @Html.ValidationMessageFor(m => m.email, "", new { @class = "text-danger" })<br>
+
+    Username: <input type="text" class="form-control" value=@Model.username name="username" readonly />
+
+    Password: <input type="password" class="form-control" value=@Model.password name="password" />
+    @Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })<br>
+
+    <input type="submit" name="Edit" value="Edit" class="btn btn-success">
+    <input type="submit" name="Delete" value="Delete" class="btn btn-danger ">
+
+</form>

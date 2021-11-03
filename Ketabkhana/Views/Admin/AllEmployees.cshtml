@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Ketabkhana.Models.EF.Employee>
+@{
+    ViewBag.Title = "AllEmployees";
+}
+
+<h2>All Employees</h2>
+
+<a href="/Admin/AddEmployee" class="btn btn-success">Add New</a>
+<br />
+<br />
+
+<table  id="table">
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Gender</th>
+        <th>Dob</th>
+        <th>Email</th>
+        <th>Username</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var e in Model)
+    {
+        <tr>
+            <td>@e.id</td>
+            <td>@e.firstName</td>
+            <td>@e.lastName</td>
+            <td>@e.gender</td>
+            <td>@e.dob</td>
+            <td>@e.email</td>
+            <td>@e.username</td>
+            <td>
+                <a href="/Admin/UpdateEmployee/@e.id" class="btn btn-success">Edit</a>
+                <a href="/Admin/DeleteEmployee/@e.id" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

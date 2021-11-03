@@ -1,0 +1,20 @@
+﻿@model Ketabkhana.Models.EF.Approval
+@{
+    ViewBag.Title = "ApproveApproval";
+}
+
+<h2>Approve Salary & Festival Bonus</h2>
+
+<form action="/Admin/ApproveApproval" method="post">
+
+    ID: <input type="number" class="form-control" value=@Model.id name="id" />
+
+    Employee Username: <input type="text" class="form-control" value=@Model.employeeUsername name="employeeUsername" />
+
+    Salary: <input type="number" class="form-control" value=@Model.salary name="salary" />
+
+    Bonus: <input type="number" class="form-control" value=@Model.bonus name="bonus" />
+
+    <input type="submit" value="Approve" class="btn btn-success">
+
+</form>

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Ketabkhana.Models.EF.Statement>
+@{
+    ViewBag.Title = "AllStatements";
+}
+
+<h2>Income Statements</h2>
+
+<a href="/Employee/AddStatement" class="btn btn-success">Add New</a>
+<br />
+<br />
+
+<table  id="table">
+    <tr>
+        <th>Date</th>
+        <th>Expenditure</th>
+        <th>Amount</th>
+
+    </tr>
+
+    @foreach (var st in Model)
+    {
+        <tr>
+            <td>@st.date</td>
+            <td>@st.expenditure</td>
+            <td>@st.amount</td>
+
+        </tr>
+    }
+</table>

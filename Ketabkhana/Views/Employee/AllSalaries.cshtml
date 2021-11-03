@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Ketabkhana.Models.EF.Salary>
+@{
+    ViewBag.Title = "AllSalaries";
+}
+
+<h2>Salaries</h2>
+
+<a href="/Employee/AddApproval" class="btn btn-success">Request New</a>
+<br />
+<br />
+
+<table  id="table">
+    <tr>
+        <th>Username</th>
+        <th>Salary</th>
+        <th>Bonus</th>
+
+    </tr>
+
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.employeeUsername</td>
+            <td>@s.salary1</td>
+            <td>@s.bonus</td>
+
+        </tr>
+    }
+</table>
